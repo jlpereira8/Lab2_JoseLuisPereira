@@ -108,5 +108,10 @@ private String notas;
     public void setPass(String pass) {
         this.pass = pass;
     }
+
+    @Override
+    public String toString() {
+        return "Alumnos{" + "nombre=" + nombre + ", cuenta=" + cuenta + ", birth=" + birth + ", edad=" + edad + ", ciudad=" + ciudad + ", nacionalidad=" + nacionalidad + ", ID=" + ID + ", user=" + user + ", pass=" + pass + '}';
+    }
               
 }
